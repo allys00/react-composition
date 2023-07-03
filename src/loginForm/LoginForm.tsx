@@ -23,7 +23,7 @@ export const LoginForm = (): JSX.Element => {
     <form
       onSubmit={handleSubmit(onSubmit)}
       data-theme="light"
-      className="flex flex-col w-1/2 m-auto py-16 px-8 rounded"
+      className="flex flex-col w-1/2 m-auto p-8 rounded"
     >
       <Input.Root>
         <>
